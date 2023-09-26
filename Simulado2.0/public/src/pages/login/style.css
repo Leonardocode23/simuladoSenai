@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow: hidden; 
+}
 
 main {
     display: flex;
@@ -11,7 +14,7 @@ main {
 }
 
 .lado_esquerdo img {
-    height: 105%;
+    height: 106%;
     position: relative;
 
 }
@@ -66,5 +69,5 @@ input {
 
 .imgSobrepor{
     position: absolute;
-    margin-top: 250px;
+    margin: 250px;
 }
